@@ -1,0 +1,37 @@
+Feature,CAMELS_Group,Description,Dev_Missing_%,Train_Q01_Bound,Train_Median_Impute,Train_Q99_Bound,Dev_Mean_NonFail_y0,Dev_Mean_Fail_y1,Risk_Direction,Dev_Univariate_AUROC
+eq_to_asset,Capital (C),Book Equity / Total Assets (%),0.23,-0.53,8.772,56.441,10.104,2.061,-,0.943
+roa,Earnings (E),"Return on Assets (ROA, %)",0.0,-5.985,1.005,3.722,0.856,-2.858,-,0.9261
+roa_roll4_mean,Longitudinal (4Q),4-Quarter Trailing Mean of ROA (%),5.64,-4.389,1.01,3.461,0.91,-2.056,-,0.9233
+tier1_lev_ratio,Capital (C),"Tier 1 Leverage Capital Ratio (RBC1AAJ, %)",0.0,0.0,8.614,61.034,9.771,1.976,-,0.9176
+npl_to_loans,Asset Quality (A),Noncurrent Loans / Gross Loans (%),1.16,0.0,0.978,14.472,1.771,8.925,+,0.9056
+roa_peer_zscore,Peer & Macro,Same-Quarter Industry Peer Z-Score of ROA,0.0,-2.382,0.04,1.097,0.006,-1.186,-,0.9014
+roa_roll4_std,Longitudinal (4Q),4-Quarter Trailing Volatility (Std) of ROA (%),5.64,0.013,0.155,3.691,0.313,1.749,+,0.895
+ore_to_asset,Asset Quality (A),Other Real Estate Owned / Total Assets (%),0.28,0.0,0.058,5.924,0.396,3.162,+,0.8819
+state_npl_mean,Peer & Macro,Same-Quarter State Average NPL Ratio (%),0.0,0.399,1.495,6.642,1.914,4.082,+,0.8476
+eq_to_asset_chg_4q,Longitudinal (4Q),4-Quarter Change in Equity/Asset Ratio (pp),7.69,-12.767,0.077,5.292,-0.138,-3.886,-,0.8465
+texas_ratio,Capital (C),(Noncurrent Loans + ORE) / (Equity + Reserves) (%),1.13,0.0,7.504,239.846,17.432,124.688,+,0.8266
+reserves_to_npl,Asset Quality (A),Loan Loss Allowance / Noncurrent Loans (%),8.6,0.0,109.782,10233.333,427.363,64.163,-,0.7977
+total_rbc_ratio,Capital (C),"Total Risk-Based Capital Ratio (RBCRWAJ, %)",0.0,0.0,12.291,94.929,12.908,1.454,-,0.789
+asset_growth_yoy,Longitudinal (4Q),4-Quarter YoY Asset Growth (%),7.47,-20.841,5.657,134.549,9.768,-3.336,-,0.7789
+nim,Earnings (E),"Net Interest Margin (NIMY, %)",0.0,0.204,4.223,7.952,4.204,2.547,-,0.7701
+core_dep_to_asset,Liquidity (L),Domestic Core Deposits / Total Assets (%),0.0,5.134,87.807,96.919,84.33,90.44,+,0.7628
+nonaccrual_to_loans,Asset Quality (A),Nonaccrual Assets / Gross Loans (%),7.0,0.0,0.448,10.106,1.044,4.231,+,0.7621
+prov_to_asset,Earnings (E),Loan Loss Provision / Total Assets (%),3.3,-0.106,0.075,2.982,0.204,1.22,+,0.7475
+reserves_to_loans,Asset Quality (A),Loan Loss Allowance / Gross Loans (%),1.19,0.0,1.236,6.382,1.438,3.177,+,0.7419
+roe_clean,Earnings (E),"Return on Equity (ROE masked when EQ<=0, %)",1.43,-58.22,11.11,40.26,9.961,-14.121,-,0.7184
+liquid_to_asset,Liquidity (L),(Cash + Investment Securities) / Total Assets (%),0.0,3.359,31.103,78.002,32.898,21.445,-,0.7161
+dep_growth_yoy,Longitudinal (4Q),4-Quarter YoY Deposit Growth (%),8.02,-21.427,5.175,170.626,9.981,0.514,-,0.71
+net_chargeoffs_to_loans,Asset Quality (A),Net Charge-Offs / Gross Loans (%),7.08,-0.443,0.052,4.381,0.259,1.306,+,0.7091
+funding_cost,Earnings (E),Total Interest Expense / Total Deposits (%),1.05,0.331,2.53,9.19,2.937,4.637,+,0.7079
+npl_ratio_chg_4q,Longitudinal (4Q),4-Quarter Change in NPL Ratio (pp),8.54,-5.691,0.0,7.307,0.024,1.897,+,0.6512
+bank_age_years,Scale & Age (S),Institution Charter Age at Quarter q (Years),0.53,0.0,69.0,147.0,62.401,42.308,-,0.6479
+pastdue90_to_loans,Asset Quality (A),Assets Past Due >=90 Days / Gross Loans (%),7.0,0.0,0.165,5.637,0.548,1.388,+,0.6431
+brokered_to_dep,Liquidity (L),Brokered Deposits / Total Deposits (%),1.86,0.0,0.0,26.578,0.921,3.465,+,0.6193
+cost_to_income,Management (M),Non-Interest Expense / Operating Revenue (%),0.31,12.591,35.371,120.628,37.971,47.113,+,0.6038
+re_loan_share,Management (M),Real Estate Loans / Gross Loans (%),0.96,1.799,58.054,103.278,58.48,64.9,+,0.5704
+con_loan_share,Management (M),Consumer Loans / Gross Loans (%),1.17,0.042,11.704,68.499,15.045,13.229,-,0.5581
+nonii_to_rev,Management (M),Non-Interest Income / Operating Revenue (%),0.31,0.435,7.315,69.045,9.455,10.34,+,0.537
+ci_loan_share,Management (M),Commercial & Industrial Loans / Gross Loans (%),0.96,0.0,13.335,61.821,15.793,16.303,-,0.5289
+loan_to_dep,Liquidity (L),Gross Loans / Total Deposits (%),0.63,15.491,69.563,139.715,69.489,70.329,+,0.5182
+pastdue30_89_to_loans,Asset Quality (A),Assets Past Due 30-89 Days / Gross Loans (%),77.28,0.0,0.916,6.81,1.01,1.036,+,0.5164
+log_asset,Scale & Age (S),Natural Log of Total Assets ln(ASSET),0.0,8.48,11.075,15.63,11.219,11.301,+,0.5066

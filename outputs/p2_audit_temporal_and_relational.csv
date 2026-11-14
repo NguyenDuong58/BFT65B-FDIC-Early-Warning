@@ -1,0 +1,13 @@
+Metric,Count
+Total Bank-Quarter Observations,1682616
+Distinct Banks in Financials (CERT),24064
+Banks in Financials Missing from Institutions Table,235
+Internal Reporting Gaps (q_diff > 1 quarter),33
+Distinct Banks with Reporting Gaps,32
+Maximum Reporting Gap Length (Quarters),31
+Failure Records with Missing CERT (Unlinkable Thrifts),488
+Duplicate CERT Records in Failures Table (Repeat/Assisted),44
+Post-1984 Failed CERTs Matched in Financials Panel,3218
+Post-1984 Failed CERTs Without Call Reports in Panel,22
+Call Reports Filed ON or AFTER First Failure Date,5636
+Call Reports Filed ON or AFTER Last Failure Date,4799

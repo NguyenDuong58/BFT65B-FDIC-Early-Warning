@@ -1,0 +1,4 @@
+exit_category,Distinct_Banks,Total_Bank_Quarters,Positive_Labels_y1,Pct_of_Banks_%
+1_Failed (Captured in 4Q Horizon),3218,95003,3218,13.39
+3_Active (Operating at 2026Q2),4306,670588,0,17.91
+4_Merged_or_Voluntary_Exit (Non-Failure),16517,912226,0,68.7

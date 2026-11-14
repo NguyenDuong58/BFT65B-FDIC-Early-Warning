@@ -1,0 +1,4 @@
+Engine,Stage1_IO_Filter_s,Stage2_Ratios_s,Stage3_Longitudinal_Windows_s,Stage4_CrossSection_Windows_s,Total_EndToEnd_s,Output_DF_Size_MB,Process_RAM_Delta_MB,Speedup_vs_Pandas
+Pandas 2.2 (Eager In-Memory),1.8625,0.1719,3.8505,1.4326,7.3247,702.5,890.5,1.0
+Polars 1.9 (Eager API),3.3275,0.1035,1.6293,0.6367,5.6971,549.8,1037.3,1.29
+Polars 1.9 (Lazy Optimizer),,,,,2.496,549.8,7.9,2.93

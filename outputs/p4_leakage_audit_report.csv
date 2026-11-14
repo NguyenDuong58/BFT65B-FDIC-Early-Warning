@@ -1,0 +1,6 @@
+Audit_Gate,Verification_Metric,Status
+1. Retrospective / Target Column Exclusion Gate,Leaked columns in X: 0,PASS
+2. Temporal 4-Quarter Purge Gap Enforcement,"Dev max=2008Q4, Test min=2010Q1 (Purged 2009Q1-Q4: 32,842 rows)",PASS
+3. Future Perturbation Invariance (Causal Window Check),Max Dev feature diff when post-2008 data mutated: 0.00e+00,PASS
+4. Preprocessing Pipeline Fit-on-Train Isolation & Zero-NaN Output,Max Dev transform diff=0.00e+00 | NaNs in Dev/Test=0,PASS
+5. Standardization Moments Verification (Dev Mean=0/Std=1 vs. Test Shift),"Dev max|mean|=5.73e-13, max|std-1|=5.73e-12 | Test mean|shift|=0.2974",PASS

@@ -1,0 +1,5 @@
+Model,Test_PR_AUC,Test_AUROC,Test_Recall_Top1Pct,Test_Recall_Top5Pct,Test_Brier,Recall_at_Naive_0.50,Precision_at_tau*,Recall_at_tau*,F1_at_tau*,TP_at_tau*,FP_at_tau*,FN_at_tau*,Test_Cost_per_1k_$k,Test_Cost_Savings_%,Failed_Banks_Caught_341,Fit_Time_s
+M1_Baseline_2Factor_LogReg,0.5202,0.9828,0.8386,0.9459,0.00216,0.1055,0.1611,0.9053,0.2735,1004,5229,105,2909.47,57.88,328/341 (96.19%),2.83
+M2_Full_Logistic_L2,0.5871,0.9872,0.8801,0.9594,0.00175,0.4256,0.1536,0.9279,0.2635,1029,5672,80,2944.83,57.37,327/341 (95.89%),36.52
+M3_Random_Forest,0.6508,0.9845,0.8909,0.954,0.00172,0.3526,0.0843,0.9513,0.1549,1055,11457,54,5278.13,23.59,329/341 (96.48%),1343.03
+M4_HistGradientBoosting,0.6197,0.9811,0.8909,0.9567,0.00189,0.5951,0.1238,0.9459,0.2189,1049,7427,60,3577.24,48.21,329/341 (96.48%),110.23

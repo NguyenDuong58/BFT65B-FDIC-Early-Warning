@@ -1,0 +1,4 @@
+Candidate_Split,Dev_Rows,Dev_Pos_Labels_y1,Dev_Failed_Banks,Test_Rows,Test_Pos_Labels_y1,Test_Failed_Banks,Meets_Min_50_Failures
+"Split_A (Dev<=2008Q4, Gap=2009, Test=2010Q1-2025Q2)",1259614,10680,2835,367860,1109,341,True
+"Split_B (Dev<=2009Q2, Gap=2009Q3-2010Q2, Test=2010Q3-2025Q2)",1276198,11021,2920,351948,848,255,True
+"Split_C (Dev<=2009Q4, Gap=2010, Test=2011Q1-2025Q2)",1292456,11350,2991,336383,652,199,True

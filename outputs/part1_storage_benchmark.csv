@@ -1,0 +1,6 @@
+Layout,Compression,Size_MB,Write_s,Read_Full_s,Read_Proj_5Cols_s,Read_Filter_2008_2010_s,Compression_Ratio_vs_CSV,Speedup_Proj_vs_CSV,Speedup_Filter_vs_CSV
+Raw CSV (Single File),None,422.52,96.8035,3.7614,0.8532,1.1183,1.0,1.0,1.0
+Single Parquet,NONE,204.16,2.9653,0.2182,0.0251,0.0046,2.07,33.99,243.11
+Single Parquet,SNAPPY,169.78,3.5619,0.3013,0.0421,0.0085,2.49,20.27,131.56
+Single Parquet,ZSTD,144.15,4.987,0.4561,0.0672,0.0131,2.93,12.7,85.37
+Quarter-Sharded Parquet (REPDTE=q.parquet),SNAPPY,241.88,9.1,0.5584,0.1153,0.0121,1.75,7.4,92.42
